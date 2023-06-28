@@ -48,7 +48,7 @@ import Layout from "../layouts/Layout.astro";
     >
       <div class="z-30 relative h-full flex flex-col">
         <header>
-          <h2 class="text-white pt-40 text-4xl font-medium">
+          <h2 class="text-white pt-40 text-[40px] font-medium">
             Disfrute de Tesla
           </h2>
           <p class="text-white text-sm">
@@ -56,8 +56,13 @@ import Layout from "../layouts/Layout.astro";
           </p>
         </header>
 
-        <footer class="flex flex-col flex-grow justify-end pb-24">
-          <a class="text-white" href="#">Prueba de Conducción</a>
+        <footer class="flex flex-col flex-grow justify-end pb-20">
+          <div>
+            <a
+              class="text-white border-[3px] border-white/5 backdrop-blur-sm text-sm rounded font-medium font px-12 py-2 cursor-pointer hover:bg-white hover:text-black transition-colors"
+              href="#">Prueba de Conducción</a
+            >
+          </div>
         </footer>
       </div>
 
